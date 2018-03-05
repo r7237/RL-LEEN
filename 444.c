@@ -1,10 +1,9 @@
 
 #include <stdio.h>
- 
+ #include<conio.h>
 void main()
 {
     int num, temp, remainder, reverse = 0;
- 
     printf("Enter an integer \n");
     scanf("%d", &num);
     /*  original number is stored at temp */
